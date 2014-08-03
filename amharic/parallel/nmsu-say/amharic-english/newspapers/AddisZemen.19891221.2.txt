@@ -1,0 +1,37 @@
+﻿
+
+                አንድ ወጥ የአማርኛ የፊደል አጠቃቀም የአሠራር ችግሮችን ያስወግዳል
+
+                Uniformed Amharic Alphabet Usage Avoids Working Problems
+
+  ለኮምፒዩተር ተጠቃሚዎችና አገልግሎት ሰጪዎች ወጥነት ያለው የአማርኛ የፊደል ሰንጠረዥ ቢዘጋጅ የሚያጋጥማቸውን የአሠራር ችግር ለማስወገድ እንደሚረዳቸው ተገለጸ።
+
+If Uniformed Amharic Alphabet were prepared for computer users and service providers, it would help avoid the working problems they may encounter, it was disclosed.  
+
+  የኢትዮጵያ ኮምፒዩተር ስታንዳርድ ማኅበር መሥራች ኮሚቴ አስተባባሪ ዶክተር ዳዊት በቀለ እንደገለጹት የአማርኛ ፊደል ሠንጠረዥ መዘጋጀቱ በመረጃ ልውውጥ በጥናታዊ ሥራዎች አዘገጃጀትና በመረጃ(ዳታ) አሰባሰብ ላይ የሚያገጥሙ ችግሮችን ያስወግዳል።
+
+Coordinator of the establishing committee for Ethiopian Computers Standard Association, Dr. Dawit Bekele, explained that preparing Amharic Alphabet chart avoids problems that could be faced during information exchange, preparation of research works and gathering of data.  
+
+  ዶክተር ዳዊት የኢትዮጵያ ስታንዳርድ ማኅበር መሥራች ስብሰባ ትናንት በኢትዮጵያ ደረጃዎች መዳቢ ባለሥልጣን አዳራሽ በተካሄደበት ወቅት ለጋዜጠኞች በሰጡት መግለጫ የአማርኛ ቁልፍ ሰሌዳ (ኪቦርድ) በኮምፒዩተር ውስጥ ያለው አቀማመጥ ከእንግሊዝኛ ጋር ባለመጣጣሙ በአጠቃቀም ላይ ተጽዕኖ እንደሚያስከትል ጠቁመው የማኅበሩ መቋቋም ይኼንኑ ችግር ለማስወገድ የሚረዳ መሆኑን ተናግረዋል።
+
+In a statement he made to journalists during the meeting of the establishing committee for Ethiopian computer standard Association, Dr. Dawit explained that since the arrangements of Amharic key board is not compatible with the English ones, it would have an impact on workmanship, so establishing the association would help avoiding this problem.  
+
+  የአጠቃቀም ችግሩን ለማስወገድና አንድ ወጥነት ያለው የአማርኛ የፊደል ሠንጠረዥ ለማዘጋጀት የዘርፉ ባለሙያዎች ተጠቃሚዎችና አገልግሎት ሰጪዎች ሀሳቡን በጋራ ተስማምተው ካላጸደቁት ችግሩ እንደማይቀረፍ ዶክተር ዳዊት ገለጸዋል።
+
+Doctor Dawit uncovered that unless professionals of the sector, beneficiaries and service providers cooperatively agree and approve to prepare uniformed Amharic alphabet chart, the difficulty wouldn't be overcome.  
+
+  በሌላ በኩልም የሀገራችን የሥራ ቋንቋ አማርኛ እንደመሆኑ የፊደል ሰንጠረዥ መዘጋጀት ለተጠቃሚውም ሆነ ለአገልግሎት ሰጪው ከፍተኛ ጠቀሜታ እንደሚኖረው አስታውቀዋል።
+
+On the other hand, since the working language of our country is Amharic, preparing the alphabet chart would have great advantage both for the beneficiaries as well as for service providers, he unveiled.  
+
+  ኢትዮጵያ ውስጥ የኮምፒዩተር ቴክኖሎጂ እንዳይስፋፋ ከሚያግዱት ችግሮች አንዱ ይኼው ወጥነት ያለው የፊደል ሠንጠረዥ አለመዘጋጀት ነው ያሉት ዶክተር ዳዊት ከ2ሺ ዓመታት በኋላ ኮሚፒዩተር አይኖርም እየተባለ የሚነገረውም ስህተት እንደሆነና እንዲህ ያለው ስጋት በሀገራችን ውስጥ ሊከሰትም እንደማይችል ገልጸዋል።
+
+In Ethiopia one of the stumbling blocks for the widening of computer technology is the vacancy of this uniformed alphabet chart, said Doctor Dawit, and as to the gossip that there would be no computer after the year 2000, he underscored that this is simply incorrect and should not worry anyone in our country.  
+
+  ዶክተር ደምሱ ገመዳ በአዲስ አበባ ዩኒቨርስቲ ተባባሪ ፕሮፌሰር የኢትዮጵያ ኮምፒዩተር ስታንዳርድ ማኅበር መሥራች ስብሰባ መክፈቻ ላይ ባደረጉት ንግግር የማኅበሩ መመሥረት ወቅታዊ መሆኑን ጠቁመው በአገራችን ላለው የመረጃ ልውውጥ ለቴክኖሎጂ ዕድገት ጉልህ አስተዋጽዖ እንደሚኖረው ገልጸዋል።
+
+Dr. Demissa Gemeda, Associate Professor at AAU, in has speech doing the opening session of establishing Committee for Ethiopian computer standard Association, he said the establishment of the association is timely and it has oblong contribution for our country's development of information exchange.     
+
+                          ከአዲስ ዘመን ነሐሴ 25 ቀን 1989
+
+                        From Addis Zemen August 27, 1997 

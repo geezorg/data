@@ -1,0 +1,33 @@
+﻿<DOC docid="MARKETVIEW_20041217.0801" lang="Eng">
+
+--Segment 1--
+
+Gazprom, the main Russian gas company, has been denied a $10 billion credit line due to the political situation in Russia.
+
+ዋናው የሩሲያ የጋዝ ኩባንያ ጋዝፕሮም በሩሲያ ፖለቲካዊ ሁኔታ የተነሳ $10 ቢሊዮን የሚያወጣ የዱቤ ሽያጭ ተከልክሏል።
+
+--Segment 2--
+
+The company intended to use the cash to pay an artificially low price for Yukos assets (hence that firm's bankruptcy filing a few days ago -- you know it's bad when you have to use US courts to protect your own assets from appropriation by your home country). 
+
+ኩባንያው ይህን ገንዘብ ከገበያ በታች ለተገመተው ለዮኮ ንብረት ሊከፍS አስቦ ነበር፤ /የዚያ ድርጅት ክስረት ከጥቂት ቀናት በፊት ከተገለጸ በኋላ -- ታውቃለህ የገዛ ንብረትህ በአገርህ እንዳይወረስ ጥበቃ እንዲደረግልህ የዩ.ኤስን ፍርድ ቤትን መጠቀሙ በጣም መጥፎ ነው/።
+
+--Segment 3--
+
+It's starting to look like Putin's goal is a sort of judicial nationalization -- taking control of key assets through court, rather than executive, fiat.
+
+የፑቲን ግብ ከሥራ አስፈፃሚው ፊያት ይልቅ ቁልፍ የሆኑ ንብረቶችን በሕግ አውጪው አካል የመውረስን መልክ እየያዘ የመጣ ይመስላል።
+
+--Segment 4--
+
+But the markets have caught on, and Russia may be deprived of the capital it needs to grow.
+
+ግን ገበያው ስለተያዘ ሩሲያ ለዕድገት የምትፈልገውን ካፒታል ልትከለከል ትችል ይሆናል።
+
+--Segment 5--
+
+Don't expect any of the Russian leadership to reverse course; given the current trends there, they'll just Blame the West when their screwy plan screws them over.
+
+የሩሲያ አመራር አቅጣጫ ይለውጣል ብለህ አትጠብቅ፦ አሁን በወቅቱ የአካሄድ ሁኔታ እንደሚታየው በሌሎች ላይ እንዲፈጸም ያወጡት ጠማማ ዕቅድ ራሳቸውን ሲያጣምማቸው ምዕራቡን ይወቅሳሉ።
+
+</DOC>

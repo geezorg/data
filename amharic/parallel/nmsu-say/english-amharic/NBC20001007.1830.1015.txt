@@ -1,0 +1,29 @@
+﻿<DOC docid="NBC20001007.1830.1015">
+
+--Segment 1--
+An investigation is under way into a fatal airliner accident in Mexico last night. 
+
+ትናንት ማታ ሜክሲኮ ውስጥ ሞትን ያስከተለ የአዉሮፕላን አደጋ በምርመራ ላይ ነዉ።
+
+--Segment 2--
+It happened as the DC-9 was trying to land during a rainstorm. 
+
+አደጋዉ የደረሰዉ ዲሲ-9 አዉሮፕላን ሀይለኛ ዝናብ እየወረደ ሊያርፍ ሲሞክር ነበር።
+
+--Segment 3--
+The Aero Mexico jet skidded off a runway and into a neighborhood in the town of Reynosa, about 50 miles from Brownsville, Texas. 
+
+የሜክሲኮ ጀት አዉሮፕላን ከማረፊያዉ ተንሸራቶ በመዉታት ከብሮንስቪል ቴክሳስ በግምት 50 ማይልስ እርቃ ከምትገኝ ሬኖሳ ከምትባል የጎረቤት ከተማ ወድቋል።
+
+--Segment 4--
+Four people on the ground were killed. 
+
+መሬት ላይ የነበሩ አራት ሰዎች ሞተዋል።
+
+--Segment 5--
+But the 83 people aboard the plane escaped with only scrapes and bruises. 
+
+ግን በአዉሮፕላኑ የነበሩ 83 ተሳፋሪዎች ሰዉነታቸዉ ከመላላጥና ከመበለዝ ሌላ ከከባድ አደጋ ሊያመልጡ ችለዋል።
+
+</DOC>
+
