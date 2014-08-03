@@ -1,0 +1,58 @@
+﻿<DOC docid="wsj_1255">
+
+--Segment 1--
+The Food and Drug Administration banned all imports of mushrooms from China in response to a rash of food-poisoning outbreaks linked to canned Chinese mushrooms. 
+
+የምግብና የመድኃኒት አስተዳደር በቆርቆሮ ታሽጐ ለገበያ ከሚቀርበው ከቻይና እንጉዳይ ጋር በተያያዘ የምግብ መመረዝ ሁኔታ ስለተከሰተ ከቻይና የሚመጣውን እንጉዳይ ሙሉ በሙሉ ታግዷል።
+
+--Segment 2--
+"The agency has concluded that contamination may be widespread throughout the mushroom-processing industry in China," an FDA spokesman said yesterday. 
+
+የምግብና መድኃኒት አስተዳደር ትናንት እንደተናገረው «ቻይና ውስጥ እንጉዳይን እያሸገ በሚያወጣው ኢንዱስትሪ ውስጥ የምግብ መመረዝ ጉዳይ በጣም መስፋፋቱን ኤጀንሲው ገልጿል።»
+
+--Segment 3--
+The agency won't allow mushrooms that were canned or packed in brine at any Chinese plant to enter the U.S. until "satisfactory sanitation-control measures are implemented in China to prevent" bacterial contamination. 
+
+የባክቴሪያ ብክለትን ለመከላከል «ተገቢ የሆነ የጽዳት ቁጥጥር እርምጃ ቻይና ውስጥ አስካልተወሰደ ድረስ» እንጉዳይን በጨው እየቀመመ በቆርቆሮ ወይም በካርቶን እያሸገ የሚልክ የቻይና ኢንዱስትሪ ውጤት ወደ ዩ.ኤስ እንደገባ ኤጀንሲው ፈጽሞ አይፈቅድም።
+
+--Segment 4--
+On May 19, the FDA began detaining Chinese mushrooms in 68-ounce cans after more than 100 people in Mississippi, New York and Pennsylvania became ill from eating tainted mushrooms. 
+
+ሚሲሲፒ፣ ኒው ዮርክና ፔንሲልባንያ ውስጥ የተመረዘ እንጉዳይ በልተው 100 ሰዎች ከታመሙ በኋላ በግንቦት 19 የምግብና የመድኃኒት አስተዳደር 68-ኦውንስ በሚመዝኑ ቆርቆሮች ታሽጐ የነበረውን እንጉዳይ ከሽያጭ ውጪ እንዲሆኑ አድርጓል።
+
+--Segment 5--
+In subsequent tests, the agency found smaller-size cans from several Chinese plants to be similarly contaminated. 
+
+በተከታታይ በተካሄዱ የምርመራ ሙከራዎች ከተለያዩ የቻይና ፋብሪካዎች በትንንሽ ቆርቆሮዎች እየታሸጉ የሚወጡ የእንጉዳይ ውጤቶችም እንዲሁ በተመሳሳይ ሁኔታ የተበከሉ መሆናቸውን ኤጀንሲው ደርሶበታል።
+
+--Segment 6--
+The outbreaks were traced to Staphylococcus aureus, a type of bacteria that produces a toxin capable of surviving the high temperatures used in canning vegetables. 
+
+ብክለቱ የተፈጠረው የአትክልት ምግቦች በቆርቆሮ በሚታሸጉበት ጊዜ የሚኖረውን ከፍተኛ ሙቀት ለመቋቋም የሚችል መርዝ በሚፈጥረው ስታፊሎኮኩስ በሚባለው የባክቴሪያ ዓይነት መሆኑ ታውቋል።
+
+--Segment 7--
+A recall of the mushrooms blamed for the food poisoning began in early March. 
+
+ስለ እንጉዳይ የሚያስታውሱ ሰዎች የመመረዙ ጉዳይ በመጋቢት መጀመሪያ ላይ መከሰቱን አስታከው ገልጸዋል።
+
+--Segment 8--
+In 1987, China exported 65 million pounds of mushrooms, valued at $47 million, to the U.S. 
+
+በ1987 ቻይና $47 ሚሊዮን የሚያወጣ 65 ሚሊዮን ፖውንድ እንጉዳይ ለዩ.ኤስ ሸጣለች።
+
+--Segment 9--
+The shipments went mostly to food-service distributors that supply pizzerias and restaurants. 
+
+ዕቃው የተላከው ለሬስቶራንቶችና ለፒዘሪያዎች ለሚያቀርቡ ምግብ አከፋፋዮች ነበር።
+
+--Segment 10--
+A spokesman for the Chinese Embassy here said that the Beijing government has taken "many effective measures" to stop the mushroom contamination and is further investigating the underlying causes. 
+
+ከዚህ ያለው የቻይና ኢምባሲ ቃል አቀባይ እንደተናገረው የእንጉዳይን ብክለት ለማቆም የቤጂንግ መንግሥት «በርካታ ወሳኝ እርምጃዎችን» መውሰዱንና ከዚህ ጋር የተያያዙ ጉዳዮችን ይበልጥ በመመርመር ላይ መሆኑን ገልጿል።
+
+--Segment 11--
+He predicted the problem will be solved "very soon." 
+
+ችግሩ «በአጭር ጊዜ» መፍትሔ እንደሚያገኝ ተንብዮአል።
+
+</DOC>
