@@ -1,0 +1,19 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="PER"><font class="PER">ኃይሌ</font></a> <a title="ORG"><font class="ORG">በተመድ</font></a> ልዩ የሰላም ስብሰባ ላይ እንዲገኝ ተጋበዘ<br />
+ <a title="TTL"><font class="TTL">አትሌት</font></a> <a title="PER"><font class="PER">ኃይሌ ገ/ ሥላሴ</font></a> <a title="LOC"><font class="LOC">ኒውዮርክ</font></a> ውስጥ በሚደረገው <a title="ORG"><font class="ORG">የተባበሩት መንግሥታት ድርጅት (ተመድ</font></a>) ልዩ የሰላም ስብሰባ ላይ እንዲገኝ ተጋበዘ።<br />
+ በተባበሩት መንግሥታት የልማት ፕሮግርማ የበጎ ፈቃድ አምባሳደር ሆኖ እንዲሠራ ከሁለት ዓመት በፊት የተመረጠው <a title="PER"><font class="PER">ኃይሌ</font></a> <a title="LOC"><font class="LOC">ኒውዮርክ</font></a> በሚካሄደው ስብሰባ ላይ የሚሳተፈው <a title="TTL"><font class="TTL">ዋና ፀሐፊው</font></a> <a title="PER"><font class="PER">ኮፊን አናን</font></a> ባደረጉለት ጥሪ መሠረት መሆኑን ሰሞኑን ለኢዜአ ገልጿል።<br />
+ <a title="PER"><font class="PER">ኃይሌ</font></a> በዚህ ዓይነቱ ስብሰባ ላይ ሲካፈል የአሁኑ ለሁለተኛ ጊዜ እንደሆነ ገልጾ በተባበሩት መንግሥታት የልማት ፕሮግራም የበጎ ፈቃድ አምባሳደር ሆኖ ከተመረጠ ወዲህም በቅርቡ <a title="ORG"><font class="ORG">የኢትዮጵያ የአካል ጉዳተኞች ፌዴሬሽን</font></a> ባደረገው የገንዘብ ማሰባሰብ ፕሮግራም መሳተፉንና የገንዘብ ድጋፍ ማድረጉንም አመልክቷል።<br />
+ <a title="LOC"><font class="LOC">በኒውዮርክ</font></a> ልዩ ስብሰባ ላይ እንዲሳተፉ ጥሪ የተደረገላቸው <a title="ORG"><font class="ORG">የተባበሩት መንግሥታት የልማት ድርጅት</font></a> ለበጐ ፈቃድ አምባሳደርነት ከመላው ዓለም የመረጣቸው ታላላቅ ሰዎች ታዋቂ የፊልምና የመጽሐፍ ደራሲያን እንዲሁም የዓለም ኮከብ ስፖርተኞችን ያካተተ ነው።<br />
+<br />
+<br />
+<br />
+</XML>

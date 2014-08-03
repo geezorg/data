@@ -1,0 +1,17 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="TIME"><font class="TIME">በመጪው ዓመት</font></a> <a title="ORG"><font class="ORG">የደቡብ ዩኒቨርስቲ</font></a> ተማሪዎች በራሳቸው ወጪ ይማራሉ<br />
+ <a title="ORG"><font class="ORG">የደቡብ ዩኒቨርስቲ</font></a> ተማሪዎች <a title="TIME"><font class="TIME">ከመጪው ዓመት ጀምሮ</font></a> ክፍያውን በራሳቸው መፈጸም የሚችሉት በጥሬ ገንዘብ እንዲሁም አቅም የሌላቸው ሥራ ከያዙ በኋላ በታሳቢነት ለመክፈል ተፈራርመው ትምህርታቸውን እንደሚጀምሩ የዩኒቨርስቲው ፕሬዚዳንት <a title="TTL"><font class="TTL">ፕሮፌሰር</font></a> <a title="PER"><font class="PER">ዝናቡ ገ/ ማርያም</font></a> አስታወቁ።<br />
+ በዚህም መሠረት ተማሪዎቹ የምግብ፣ የመኝታና የሕክምና ወጪዎቻቸውን ሙሉ በሙሉ የሚሸፍኑ ሲሆን የትምህርት ወጪው 15 በመቶ ብቻ እንደሚታሰብባቸው የገለጹት ፕሬዚዳንቱ ይህም ተማሪዎች የነበረባቸውን የጥገኝነት ባህርይ የሚቀርፍ ከመሆኑም በላይ የግል ሕይወታቸውንና ሀገሪቱን ለማሻሻል የሚጥሩ ብዙ ዜጐች በመፍጠሩ ረገድ ከፍተኛ አስተዋጽኦ እንደሚኖረው አስረድተዋል።<br />
+<br />
+<br />
+<br />
+</XML>

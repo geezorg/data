@@ -1,0 +1,19 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="LOC"><font class="LOC">በጅማ</font></a> የአዕምሮ ችግር የሚያጋጥማቸው ሰዎች ቁጥር እየተበራከተ ነው<br />
+ <a title="LOC"><font class="LOC">በጅማ ከተማ</font></a> ከጫት ሱስ ጋር በተያያዘ ለአዕምሮ ሕመም የሚዳረጉ ሰዎች ቁጥር እየተበራከተ መምጣቱን የከተማዋ ነዋሪዎች አስታወቁ።<br />
+ አንዳንድ የከተማዋ ነዋሪዎች እንደገለጹት በከተማዋ ለረጅም ዓመታት ጫት በማመንዥግ ሱስ የተጠመዱ በርካታ ሰዎች አቅላቸውን በመሳት በከተማዋ ጎዳናዎች ላይ አስነዋሪ ተግባራትን ሲፈጽሙ ይስተዋላሉ።<br />
+ ከጫት ሱሰኞች መካከል አንዳንዶቹ ልብሳቸውን አውልቀው አውራ ጐዳና ላይ እንደሚጥሉ፣ ከሥነ ምግባር የወጡ ጽሑፎችን በጠመን አስፋልት ላይ እንደሚፅፉና ሌሎች ማህበረሰቡ የማይቀበላቸውን ጸያፍ ተግባራ እንደሚፈጽሙ አስረድተዋል።<br />
+ ወደ ቁርስ ቤቶች በመግባት ለተጠቃሚዎች የቀረበ ምግብና መጠጥ ነጥቀው እንደሚገቡና ሌሎች ተጠቃሚዎች የከፈሉትን ሂሳብ ከጠረጴዛ ላይ ወስደው እንደሚሄዱም ነዋሪዎቹ አስታውቀዋል።<br />
+<br />
+<br />
+<br />
+</XML>

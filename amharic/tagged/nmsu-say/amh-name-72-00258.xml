@@ -1,0 +1,18 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="PER"><font class="PER">ብርሃኔ</font></a> ደጋግማ በማሸነፍ ሀገሯን እያስጠራች ነው<br />
+ በያዝነው ዓመት በየትኛውም ዓለም አቀፍ የውድድር መድረክ ደጋግማ በማሸነፍ አፍሪካን በበጐ እያስጠራች ትገኛለች።<br />
+ <a title="TTL"><font class="TTL">አትሌት</font></a> <a title="PER"><font class="PER">ብርሃኔ</font></a> <a title="LOC"><font class="LOC">ቱኒዝያ</font></a> በተከናወነው የአፍሪካ አትሌቲክስ ሻምፒዮና በ5 ሺህ ሜትር በአስተማማኝ አሸንፋ የወርቅ ሜዳሊያ ተሸላሚ በሆነች <a title="TIME"><font class="TIME">ከአንድ ሣምንት</font></a> በኋላ በዙሪክ 3 ሺህ ሜትር የጐልደን ሊግ ውድድር ድል አድርጋለች። <a title="PER"><font class="PER">ብርሃኔ</font></a> ቀደም ሲል ባደረገቻቸው አራት ተመሳሳይ የጐልደን ሊግ ውድድሮች ሦስት ጊዜ ሁለተኛ አንድ ጊዜ አራተኛ መውጣቷ የሚታወስ ነው።<br />
+ የዚሁ ውድድር ቀጣይና የማጠናቀቂያ መሆኑ የተነገረለት የብራስልስና የበርሊን ውድድሮች ለብርሃኔ ተመሳሳይ ድል እንድታስመዘግብ የቅርብ ጓደኞቿና የስፓርት ቤተሰቦች መልካሙን ተመኝተውላታል።<br />
+<br />
+<br />
+<br />
+</XML>

@@ -1,0 +1,17 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="PER"><font class="PER">ኃይሌ ገ/ ስላሴ</font></a> ቃሉን አከበረ<br />
+ <a title="TTL"><font class="TTL">ሻለቃ</font></a> <a title="PER"><font class="PER">ኃይሌ ገ/ ሥላሴ</font></a> <a title="TIME"><font class="TIME">ባለፈው እሁድ</font></a> <a title="LOC"><font class="LOC">በእንግሊዝ ማንችስተር ከተማ</font></a> ግሬት ማንችስተር ራን በሚባለው ውድድር ተካፍሎ በድል ማጠናቀቁ ታውቋል። <a title="PER"><font class="PER">ኃይሌ</font></a> ከውድድሩ በፊት ለጋዜጠኞች በሰጠው መግለጫ ሪከርዱን እንደሚያሻሽል ተናግሮ ነበር። እንግሊዞች በጉጉት ሲጠብቁት በነበረው በዚህ ውድድር ጀግናው አትሌት <a title="PER"><font class="PER">ኃይሌ ገ/ ሥላሴ</font></a> የገባውን ቃል በማክበር ሪከርዱን ማሻሻሉ ታውቋል። በቅርብ ጊዜ ውስጥ ወደማራቶን ውድድር ሙሉ ለሙሉ መግባት ኢንደሚፈልግ የገለፀው <a title="PER"><font class="PER">ኃይሌ</font></a> <a title="LOC"><font class="LOC">ማንችስተር ውስጥ</font></a> በተደረገው ውድድር አይበገሬነቱን በድጋሚ ማስመስከር በመቻሉ በዓለም ሕዝብ ከፍተኛ አድናቆትን ሊያገኝ ችሏል።<br />
+<br />
+<br />
+<br />
+<br />
+</XML>

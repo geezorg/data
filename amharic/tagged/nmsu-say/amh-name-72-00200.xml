@@ -1,0 +1,17 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+<a title="ORG"><font class="ORG">የቅዱስጊዮርጊስ ስፖርት ማህበር</font></a> ፕሮፌሽናል አሠልጣኝ አስመጣ<br />
+ <a title="ORG"><font class="ORG">የቅዱስ ጊዮርጊስ ስፖርት ማህበር</font></a> ቡድኑን ለማጠናከርና በአፍሪካ ደረጃ በሚካሄዱ ውድድሮች አጥጋቢ ውጤት ለማስመዝገብ የሚያስችል አንድ ሆላንዳዊ ፕሮፌሽናል አሰልጣኝ አስመጥቷል።<br />
+ አሠልጣኙ <a title="TTL"><font class="TTL">ሚስተር</font></a> <a title="PER"><font class="PER">ሃንሰን ቫንደር ፕልዩም</font></a> ይባላሉ። የ54 ዓመት ሰው ሲሆኑ ባለፈው <a title="TIME"><font class="TIME">እሁድ</font></a> <a title="LOC"><font class="LOC">በቅዱስ ጊዮርጊስ ስፖርት ማህበር ቅጥር ግቢ</font></a> ተካሂዶ በነበረው ወርሃዊ የቤተሰብ ስብሰባ ላይ ተገኝተው ከደጋፊው ጋር ተዋውቀዋል። በትውውቃቸው ወቅትም የቡድኑን ሥልጠና በተመለከተ አጭር ንግግር አድርገዋል።<br />
+<br />
+<br />
+<br />
+</XML>

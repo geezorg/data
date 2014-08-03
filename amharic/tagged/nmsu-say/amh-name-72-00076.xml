@@ -1,0 +1,19 @@
+<XML>
+<style type="text/css">
+font.LOC  { background-color: blue }
+font.TTL  { background-color: magenta }
+font.TIME { background-color: cyan }
+font.PER  { background-color: red }
+font.ORG  { background-color: green }
+</style>
+<br />
+<br />
+በአውሮፕላን ጠለፋ የተጠረጠረው ተያዘ<br />
+ <a title="LOC"><font class="LOC">የጅማ ከተማ</font></a> ነዋሪ የሆነ <a title="PER"><font class="PER">አሚን አብደላ</font></a> የተባለ ግለሰብ አውሮፕላን ለመጥለፍ ግማሽ አውቶማቲክ ጩቤ ይዞ በመገኘቱ መያዙን ዘ- ሞኒተር የተባለው የእግሊዝኛ ጋዜጣ በትላንት ዕትሙ ዘገበ።<br />
+ ግለሰቡ በለበሰው ልብስ ውስጥ ጩቤውን አርቆ የደበቀው ቢሆንም ቦሌ አለም አቀፍ አየር ማረፊያ በተደረገ ፍተሻ ሊያዝ ችሏል። <a title="PER"><font class="PER">አሚን አብደላ</font></a> የ21 ዓመት ወጣትና <a title="TTL"><font class="TTL">በጅማ ከተማ</font></a> ውስጥ በንግድ ሥራ የተሰማራ መሆኑ ታውቋል።<br />
+ ፖሊስ እንዳስታወቀው በአሁኑ ሰዓት መረጃዎች መዛግብትና የጣት አሻራ ከተጠርጣሪው ግለሰብ ወስዷል።<br />
+ ተጠርጣሪው ፌዴራል የመጀመሪያ ፍርድ ቤት የቀረበ ሲሆን ፖሊስ በጠየቀው መሰረት <a title="TIME"><font class="TIME">የ14 ቀን</font></a> ቀጠሮ ተጠይቆበት ወደ ማረፊያ ቤት ወርዷል።<br />
+<br />
+<br />
+<br />
+</XML>
