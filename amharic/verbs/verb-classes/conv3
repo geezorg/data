@@ -1,0 +1,35 @@
+#!/usr/bin/perl
+while (<STDIN>) {
+   $Line1 = $_;
+   $v = "?}";
+   if (/G}/)  {
+     $Line2 = <STDIN>;  # grab \cline 
+
+     print $Line1;
+     print "%       |  | {\\eG} |{\\eG}{\\sG} | {\\teG} |  |{\\eG}{\\sG}{\\teG}|{\\eG}{\\nG} |{\\eG}{\\xG}|\n";
+     print $Line2;
+
+     for (1..6) {
+       $LineA = <STDIN>;
+       $LineA =~ s/^\s*//;     # this trashes leading white space
+       ($LineLeft, $LineRight) = split(/\s*&/, $LineA);
+       ($x, $a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k) = split(/{/, $LineLeft);
+
+       printf "     \\xa{%s{%s{%s {%s {%s{%s\\xb{0}{0}{0}{0}{0}{0}      %s",  
+              $a, $c, $d, $f, $i, $j, $LineRight;
+       if ($_ == 4) {
+         printf "     \\xc{%s{%s{%s {%s {%s{%s\\xd{0}{0}{0}{0}{0}{0} &&   %s",  
+                $b, $e, $v, $h, $k, $v, $LineRight;
+       }
+       else {
+         printf "     \\xc{%s{%s{%s {%s {%s{%s\\xd{0}{0}{0}{0}{0}{0} &    %s",  
+                $b, $e, $v, $h, $k, $v, $LineRight;
+       }
+     }
+   }
+   else {
+     print;
+   }
+
+}
+

@@ -1,0 +1,28 @@
+
+
+\newcommand{\xx}[5]{\begin{tabular}{*{5}{@{}c@{}|}}
+   \multicolumn{2}{@{}c@{}|}{}                              &
+   \multicolumn{3}{@{}c@{}|}{{\smallet \char97}}            \\ \hline
+   \scriptsize{\,}\small{S}\scriptsize{\,} & \scriptsize{\,}\scriptsize{F}\scriptsize{\,} &
+   \scriptsize{\,}\small{S}\scriptsize{\,} & \scriptsize{\,}\small{C}\scriptsize{\,} & \scriptsize{\,}\small{F}\scriptsize{\,} \\ \hline
+          #1      &    #2     &
+          #3      &    #4     &    #5         
+ \end{tabular}}
+
+\newcommand{\xy}[6]{\begin{tabular}{*{6}{@{}c@{}|}}
+   \multicolumn{3}{@{}c@{}|}{{\smallet \char97\char150}}    &
+   \multicolumn{3}{@{}c@{}|}{{\smallet \char116}}           \\ \hline
+   \scriptsize{\,}\small{S}\scriptsize{\,} & 
+   \scriptsize{\,}\small{C}\scriptsize{\,} & 
+   \scriptsize{\,}\small{F}\scriptsize{\,} &
+
+   \scriptsize{\,}\small{S}\scriptsize{\,} & 
+   \scriptsize{\,}\small{C}\scriptsize{\,} & 
+   \scriptsize{\,}\small{F}\scriptsize{\,} \\ \hline
+          #1      &    #2     &    #3     &
+          #4      &    #5     &    #6        
+ \end{tabular}}
+
+\xx{}{}{}{}{} \\
+\xy{}{}{}{}{}{}\\
+\xx{}{}{}{}{}\xy{}{}{}{}{}{}\\

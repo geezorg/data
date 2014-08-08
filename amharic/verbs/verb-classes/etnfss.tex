@@ -1,0 +1,762 @@
+%
+%  This is an Ethiopic character mapping file for Mule users who want to use
+%  the "ethiop" fonts WITHOUT using Babel.  To set up the fonts and use the
+%  LaTeX 2e NFSS system, something similar to the following should work for you:
+%
+%  1)  ftp://ftp.dante.de/tex-archive/languages/ethiopia/ethiop/
+%      obtain all files under "latex", "src", and "tfm".
+%
+%  2)  mv the "src" and "tfm" directories to /usr/lib/texmf/fonts/ethiop/
+%      or to wherever you keep tex fonts  -you may use them locally under
+%      the directory where you will compile your document (...in theory).
+%
+%  3)  in the "latex" directory where you have downloaded "ethiop.ins" and
+%      "ethiop.dtx" you will need to execute "latex ethiop.ins"
+%
+%  4)  mv the "uetha.fd" and "uethb.fd" to /usr/lib/texmf/tex/latex/fd/
+%      or your local equivalent :-)  It is advicable to change the "u" of
+%      "ueth[ab].tex" to the uppercase "U", or make a link accordingly.
+%
+%  5)  Test, compile the file "fidel.tex" (from where you found this file)
+%      with "latex fidel.tex".  View with "xdvi fidel.dvi", or convert to PS
+%      and print/view as you wish.
+%
+%      You may need to run xdvi twice, kpathsea which your system might use to
+%      create new pk files, seems not to inform xdvi the first time that the
+%      just created font is now available.
+%
+%      Good Luck!  Send comments/bugs to Daniel Yacob <dmulholl@cs.indiana.edu>
+%
+%
+
+%
+%  For details on obtaining and installing ethiop
+%  visit the URL:  
+%
+%  http://www.informatik.uni-hamburg.de/TGI/mitarbeiter/wimis/kummer/ethiop_eng.html
+%  
+%  or
+%
+%  ftp://ftp.dante.de/tex-archive/languages/ethiopia/ethiop/
+%
+%  To use the ethiop fonts with Babel and Mule as originally intended, see 
+%  "etbabel.tex"  under  ftp://ftp.cs.indiana.edu/pub/fidel/latex/
+%
+
+
+% 
+%  This file may be used in LaTeX as per \input{etnfss} when used also with
+%  the ethiop babel package and the Mule 2.3+  and Emacs 20.1+ editors.  Since
+%  the metafonts provide a syllabary somewhat smaller than the proposed Extended
+%  Ethiopic Unicode specification of Mule;  some hacks are added here so no
+%  characters are lost.  The results may not be satisfactory.  A revised metafont,
+%  to meet the Unicode specification, will likely come sometime in the future.
+%  There will NOT be a compatibility problem between systems when the escapes
+%  sequences in this map file are used.
+%
+
+
+%
+%  Uncomment below for TeX
+%
+%\font\fidel=etha10.300pk
+%\font\fidelx=ethb10.300pk
+
+%
+%  Uncomment below for LaTeX 2e
+%
+%
+%  Provided by Olaf Kummer
+%
+\newcommand{\fidel}{%
+  \fontencoding{U}%
+  \fontfamily{etha}%
+  \selectfont
+}
+\newcommand{\fidelx}{%
+  \fontencoding{U}%
+  \fontfamily{ethb}%
+  \selectfont
+}
+
+
+%
+%  Borrowed from ipamacs' \diatop
+%
+\def\diatopx[#1|#2]{{\setbox1=\hbox{{#1{}}}\setbox2=\hbox{{#2{}}}%
+                    \dimen0=\ifdim\wd1>\wd2\wd1\else\wd2\fi%
+                    \dimen1=\ht2\advance\dimen1by-1ex%
+%                   \dimen1=\ht2\advance\dimen1by+0.05ex%
+                    \setbox1=\hbox to1\dimen0{\hss#1\hss}%
+                    \leavevmode % added by D. Roegel
+                    \rlap{\raise1\dimen1\box1}%
+                    \hbox to1\dimen0{\hss#2\hss}}}%
+ 
+%
+%  The below macros are used to create a few extra series missing from the
+%  Ethiop Metafonts  ...though not very well.
+%
+\def\butterflyA{{\fidelx \char034}}
+\def\butterflyB{{\fidelx \char035}}
+\def\ButterflyA#1{\diatopx[\butterflyA|#1]}
+\def\ButterflyB#1{\diatopx[\butterflyB|#1]}
+
+%
+%  The next two are useful but not truly tested...
+%
+\def\PneTb{{\fidelx \char032}}
+\def\belayneTb#1{\diatopx[#1|\PneTb]}
+
+\def\WaG{{\fidelx \char033}}
+\def\AddWa#1{{\setbox1=\hbox{{#1{}}}\setbox2=\hbox{{\WaG{}}}%
+                    \dimen0=\ifdim\wd1>\wd2\wd1\else\wd2\fi%
+                    \dimen1=\ht2\advance\dimen1by-1.35ex%
+                    \setbox1=\hbox to1\dimen0{\hss#1\hss}%
+                    \leavevmode % added by D. Roegel
+                    \rlap{\raise1\dimen1\box1}%
+                    \hbox to1\dimen0{\hss{\WaG}\hss}}}%
+
+
+%
+%  Start Unicode Basic Ethiopic Domain
+%  (Unicode as per  pDAM ISO/IEC JTC1/SC2/WG2 N 1485)
+%
+
+%
+%  Start he-ho   (U+1200 -> U+1206)
+%
+\def\heG{{\fidel \char128}}
+\def\huG{{\fidel \char129}}
+\def\hiG{{\fidel \char130}}
+\def\haG{{\fidel \char131}}
+\def\hEG{{\fidel \char132}}
+\def\hG{{\fidel \char104}}
+\def\hoG{{\fidel \char133}}
+%
+%  Start le-lWa  (U+1208 -> U+120F)
+%
+\def\leG{{\fidel \char134}}
+\def\luG{{\fidel \char135}}
+\def\liG{{\fidel \char136}}
+\def\laG{{\fidel \char137}}
+\def\lEG{{\fidel \char138}}
+\def\lG{{\fidel \char108}}
+\def\loG{{\fidel \char139}}
+\def\lWaG{{\fidel \char253}}
+%
+%  Start He-HWa  (U+1210 -> U+1207)
+%
+\def\HeG{{\fidelx \char072}}
+\def\HuG{{\fidelx \char073}}
+\def\HiG{{\fidelx \char074}}
+\def\HaG{{\fidelx \char075}}
+\def\HEG{{\fidelx \char076}}
+\def\HG{{\fidelx \char077}}
+\def\HoG{{\fidelx \char078}}
+\def\HWaG{{\fidelx \char079}}
+%
+%  Start me-mWa  (U+1218 -> U+121F)
+%
+\def\meG{{\fidel \char140}}
+\def\muG{{\fidel \char141}}
+\def\miG{{\fidel \char142}}
+\def\maG{{\fidel \char143}}
+\def\mEG{{\fidel \char144}}
+\def\mG{{\fidel \char109}}
+\def\moG{{\fidel \char145}}
+\def\mWaG{{\fidel \char002}}
+%
+%  Start `se-`sWa  (U+1220 -> U+1227)
+%
+\def\sseG{{\fidelx \char080}}
+\def\ssuG{{\fidelx \char081}}
+\def\ssiG{{\fidelx \char082}}
+\def\ssaG{{\fidelx \char083}}
+\def\ssEG{{\fidelx \char084}}
+\def\ssG{{\fidelx \char085}}
+\def\ssoG{{\fidelx \char086}}
+\def\ssWaG{{\fidelx \char087}}
+%
+%  Start re-rWa  (U+1227 -> U+122F)
+%
+\def\reG{{\fidel \char146}}
+\def\ruG{{\fidel \char147}}
+\def\riG{{\fidel \char148}}
+\def\raG{{\fidel \char149}}
+\def\rEG{{\fidel \char150}}
+\def\rG{{\fidel \char114}}
+\def\roG{{\fidel \char151}}
+\def\rWaG{{\fidel \char254}}
+%
+%  Start se-sWa  (U+1230 -> U+1237)
+%
+\def\seG{{\fidel \char152}}
+\def\suG{{\fidel \char153}}
+\def\siG{{\fidel \char154}}
+\def\saG{{\fidel \char155}}
+\def\sEG{{\fidel \char156}}
+\def\sG{{\fidel \char115}}
+\def\soG{{\fidel \char157}}
+\def\sWaG{{\fidel \char255}}
+%
+%  Start xe-xWa  (U+1238 -> U+123F)
+%
+\def\xeG{{\fidelx \char088}}
+\def\xuG{{\fidelx \char089}}
+\def\xiG{{\fidelx \char090}}
+\def\xaG{{\fidelx \char091}}
+\def\xEG{{\fidelx \char092}}
+\def\xG{{\fidelx \char093}}
+\def\xoG{{\fidelx \char094}}
+\def\xWaG{{\fidelx \char095}}
+%
+%  Start qe-qo  (U+1240 -> U+1246)
+%
+\def\qeG{{\fidel \char158}}
+\def\quG{{\fidel \char159}}
+\def\qiG{{\fidel \char160}}
+\def\qaG{{\fidel \char161}}
+\def\qEG{{\fidel \char162}}
+\def\qG{{\fidel \char113}}
+\def\qoG{{\fidel \char163}}
+%
+%  Start qWe-qW  (U+1248, U+124A -> U+124D)
+%
+\def\qWeG{{\fidel \char005}}
+\def\qWuG{{\fidel \char009}}
+\def\qWiG{{\fidel \char006}}
+\def\qWaG{{\fidel \char007}}
+\def\qWEG{{\fidel \char008}}
+\def\qWG{{\qWuG}}
+%
+%  Start Qe-Qo  (U+1250 -> U+1256)
+%
+\def\QeG{{\fidelx \char096}}
+\def\QuG{{\fidelx \char097}}
+\def\QiG{{\fidelx \char098}}
+\def\QaG{{\fidelx \char099}}
+\def\QEG{{\fidelx \char100}}
+\def\QG{{\fidelx \char101}}
+\def\QoG{{\fidelx \char102}}
+%
+%  Start QWe-QW  (U+1258, U+125A -> U+125D)
+%
+\def\QWeG{{\fidelx \char000}}
+\def\QWuG{{\fidelx \char005}}
+\def\QWiG{{\fidelx \char002}}
+\def\QWaG{{\fidelx \char003}}
+\def\QWEG{{\fidelx \char004}}
+\def\QWG{{\QWuG}}
+%
+%  Start be-bWa  (U+1260 -> U+1267)
+%
+\def\beG{{\fidel \char164}}
+\def\buG{{\fidel \char165}}
+\def\biG{{\fidel \char166}}
+\def\baG{{\fidel \char167}}
+\def\bEG{{\fidel \char168}}
+\def\bG{{\fidel \char098}}
+\def\boG{{\fidel \char169}}
+\def\bWaG{{\fidel \char012}}
+%
+%  Start ve-vWa  (U+1268 -> U+126F)
+%
+\def\veG{{\fidel \char170}}
+\def\vuG{{\fidel \char171}}
+\def\viG{{\fidel \char172}}
+\def\vaG{{\fidel \char173}}
+\def\vEG{{\fidel \char174}}
+\def\vG{{\fidel \char118}}
+\def\voG{{\fidel \char175}}
+\def\vWaG{{\fidel \char247}}
+%
+%  Start te-tWa  (U+1270 -> U+1277)
+%
+\def\teG{{\fidel \char176}}
+\def\tuG{{\fidel \char177}}
+\def\tiG{{\fidel \char178}}
+\def\taG{{\fidel \char179}}
+\def\tEG{{\fidel \char180}}
+\def\tG{{\fidel \char116}}
+\def\toG{{\fidel \char181}}
+\def\tWaG{{\fidel \char248}}
+%
+%  Start ce-cWa  (U+1278 -> U+127F)
+%
+\def\ceG{{\fidelx \char104}}
+\def\cuG{{\fidelx \char105}}
+\def\ciG{{\fidelx \char106}}
+\def\caG{{\fidelx \char107}}
+\def\cEG{{\fidelx \char108}}
+\def\cG{{\fidelx \char109}}
+\def\coG{{\fidelx \char110}}
+\def\cWaG{{\fidelx \char111}}
+%
+%  Start `he-`ho (U+1280 -> U+1286)
+%
+\def\hheG{{\fidelx \char112}}
+\def\hhuG{{\fidelx \char113}}
+\def\hhiG{{\fidelx \char114}}
+\def\hhaG{{\fidelx \char115}}
+\def\hhEG{{\fidelx \char116}}
+\def\hhG{{\fidelx \char117}}
+\def\hhoG{{\fidelx \char118}}
+%
+%  Start hWe-hW  (U+1288, U+128A -> U+128D)
+%
+\def\hWeG{{\fidelx \char008}}
+\def\hWuG{{\fidelx \char013}}
+\def\hWiG{{\fidelx \char010}}
+\def\hWaG{{\fidelx \char011}}
+\def\hWEG{{\fidelx \char012}}
+\def\hWG{{\hWuG}}
+%
+%  Start ne-nWa  (U+1290 -> U+1297)
+%
+\def\neG{{\fidel \char182}}
+\def\nuG{{\fidel \char183}}
+\def\niG{{\fidel \char184}}
+\def\naG{{\fidel \char185}}
+\def\nEG{{\fidel \char186}}
+\def\nG{{\fidel \char110}}
+\def\noG{{\fidel \char187}}
+\def\nWaG{{\fidel \char249}}
+%
+%  Start Ne-NWa  (U+1298 -> U+129F)
+%
+\def\NeG{{\fidelx \char120}}
+\def\NuG{{\fidelx \char121}}
+\def\NiG{{\fidelx \char122}}
+\def\NaG{{\fidelx \char123}}
+\def\NEG{{\fidelx \char124}}
+\def\NG{{\fidelx \char125}}
+\def\NoG{{\fidelx \char126}}
+\def\NWaG{{\fidelx \char127}}
+%
+%  Start e-ea  (U+12A0 -> U+12A7)
+%
+\def\eG{{\fidelx \char128}}
+\def\uG{{\fidelx \char129}}
+\def\iG{{\fidelx \char130}}
+\def\AG{{\fidelx \char131}}
+\def\EG{{\fidelx \char132}}
+\def\IG{{\fidelx \char133}}
+\def\oG{{\fidelx \char134}}
+\def\eaG{{\fidelx \char135}}
+%
+%  Start ke-ko   (U+12A8 -> U+12AE)
+%
+\def\keG{{\fidel \char188}}
+\def\kuG{{\fidel \char189}}
+\def\kiG{{\fidel \char190}}
+\def\kaG{{\fidel \char191}}
+\def\kEG{{\fidel \char192}}
+\def\kG{{\fidel \char107}}
+\def\koG{{\fidel \char193}}
+%
+%  Start kWe-kW   (U+12B0, U+12B2 -> U+12B5)
+%
+\def\kWeG{{\fidel \char015}}
+\def\kWuG{{\fidel \char019}}
+\def\kWiG{{\fidel \char016}}
+\def\kWaG{{\fidel \char017}}
+\def\kWEG{{\fidel \char018}}
+\def\kWG{{\kWuG}}
+%
+%  Start Ke-KW   (U+12B8 -> U+12BE)
+%
+\def\KeG{{\fidelx \char136}}
+\def\KuG{{\fidelx \char137}}
+\def\KiG{{\fidelx \char138}}
+\def\KaG{{\fidelx \char139}}
+\def\KEG{{\fidelx \char140}}
+\def\KG{{\fidelx \char141}}
+\def\KoG{{\fidelx \char142}}
+%
+%  Start KWe-KW   (U+12C0, U+12C2 -> U+12C5)
+%
+\def\KWeG{{\fidelx \char016}}
+\def\KWuG{{\fidelx \char021}}
+\def\KWiG{{\fidelx \char018}}
+\def\KWaG{{\fidelx \char019}}
+\def\KWEG{{\fidelx \char020}}
+\def\KWG{{\KWuG}}
+%
+%  Start we-wo  (U+12C8 -> U+12CE)
+%
+\def\weG{{\fidel \char194}}
+\def\wuG{{\fidel \char195}}
+\def\wiG{{\fidel \char196}}
+\def\waG{{\fidel \char197}}
+\def\wEG{{\fidel \char198}}
+\def\wG{{\fidel \char119}}
+\def\woG{{\fidel \char199}}
+%
+%  Start `e-`o  (U+12D0 -> U+12D6)
+%
+\def\eeG{{\fidel \char097}}
+\def\uuG{{\fidel \char085}}
+\def\iiG{{\fidel \char073}}
+\def\aaG{{\fidel \char065}}
+\def\EEG{{\fidel \char069}}
+\def\IIG{{\fidel \char101}}
+\def\ooG{{\fidel \char079}}
+%
+%  Start ze-zWa  (U+12D8 -> U+12DF)
+%
+\def\zeG{{\fidel \char200}}
+\def\zuG{{\fidel \char201}}
+\def\ziG{{\fidel \char202}}
+\def\zaG{{\fidel \char203}}
+\def\zEG{{\fidel \char204}}
+\def\zG{{\fidel \char122}}
+\def\zoG{{\fidel \char205}}
+\def\zWaG{{\fidel \char250}}
+%
+%  Start Ze-ZWa  (U+12E0 -> U+12E7)
+%
+\def\ZeG{{\fidelx \char144}}
+\def\ZuG{{\fidelx \char145}}
+\def\ZiG{{\fidelx \char146}}
+\def\ZaG{{\fidelx \char147}}
+\def\ZEG{{\fidelx \char148}}
+\def\ZG{{\fidelx \char149}}
+\def\ZoG{{\fidelx \char150}}
+\def\ZWaG{{\fidelx \char151}}
+%
+%  Start ye-yWa  (U+12E8 -> U+12EF)
+%
+\def\yeG{{\fidel \char206}}
+\def\yuG{{\fidel \char207}}
+\def\yiG{{\fidel \char208}}
+\def\yaG{{\fidel \char209}}
+\def\yEG{{\fidel \char210}}
+\def\yG{{\fidel \char121}}
+\def\yoG{{\fidel \char211}}
+%
+% yWa is not Unicode/ISO-10646
+%
+\def\yWaG{{\fidel \char251}}
+%
+%  Start de-dWa  (U+12F0 -> U+12F7)
+%
+\def\deG{{\fidel \char212}}
+\def\duG{{\fidel \char213}}
+\def\diG{{\fidel \char214}}
+\def\daG{{\fidel \char215}}
+\def\dEG{{\fidel \char216}}
+\def\dG{{\fidel \char100}}
+%
+% Don't change \doG to \do!!  \do is defined for do-loops under Tex.
+%
+\def\doG{{\fidel \char217}}
+\def\dWaG{{\fidel \char152}}
+%
+%  Start De-DWa  (U+12F8 -> U+12FF)
+%
+\def\DeG{{\fidelx \char152}}
+\def\DuG{{\fidelx \char153}}
+\def\DiG{{\fidelx \char154}}
+\def\DaG{{\fidelx \char155}}
+\def\DEG{{\fidelx \char156}}
+\def\DG{{\fidelx \char157}}
+\def\DoG{{\fidelx \char158}}
+\def\DWaG{{\fidelx \char159}}
+%
+%  Start je-jWa  (U+1300 -> U+1307)
+%
+\def\jeG{{\fidelx \char160}}
+\def\juG{{\fidelx \char161}}
+\def\jiG{{\fidelx \char162}}
+\def\jaG{{\fidelx \char163}}
+\def\jEG{{\fidelx \char164}}
+\def\jG{{\fidelx \char165}}
+\def\joG{{\fidelx \char166}}
+\def\jWaG{{\fidelx \char167}}
+%
+%  Start ge-go   (U+1308 -> U+130E)
+%
+\def\geG{{\fidel \char218}}
+\def\guG{{\fidel \char219}}
+\def\giG{{\fidel \char220}}
+\def\gaG{{\fidel \char221}}
+\def\gEG{{\fidel \char222}}
+\def\gG{{\fidel \char103}}
+\def\goG{{\fidel \char223}}
+%
+%  Start gWe-gW   (U+1310, 1312 -> U+1315)
+%
+\def\gWeG{{\fidel \char020}}
+\def\gWuG{{\fidel \char024}}
+\def\gWiG{{\fidel \char021}}
+\def\gWaG{{\fidel \char022}}
+\def\gWEG{{\fidel \char023}}
+\def\gWG{{\gWuG}}
+%
+%  Start Ge-Go  (U+1318 -> U+131F)
+%
+\def\GeG{{\fidelx \char168}}
+\def\GuG{{\fidelx \char169}}
+\def\GiG{{\fidelx \char170}}
+\def\GaG{{\fidelx \char171}}
+\def\GEG{{\fidelx \char172}}
+\def\GG{{\fidelx \char173}}
+\def\GoG{{\fidelx \char174}}
+%
+%  GWa is not part of Unicode/ISO-10646
+%
+\def\GWaG{{\fidelx \char027}}
+%
+%  Start Te-TWa  (U+1320 -> U+1327)
+%
+\def\TeG{{\fidelx \char176}}
+\def\TuG{{\fidelx \char177}}
+\def\TiG{{\fidelx \char178}}
+\def\TaG{{\fidelx \char179}}
+\def\TEG{{\fidelx \char180}}
+\def\TG{{\fidelx \char181}}
+\def\ToG{{\fidelx \char182}}
+\def\TWaG{{\fidelx \char183}}
+%
+%  Start Ce-CWa  (U+1328 -> U+132F)
+%
+\def\CeG{{\fidelx \char184}}
+\def\CuG{{\fidelx \char185}}
+\def\CiG{{\fidelx \char186}}
+\def\CaG{{\fidelx \char187}}
+\def\CEG{{\fidelx \char188}}
+\def\CG{{\fidelx \char189}}
+\def\CoG{{\fidelx \char190}}
+\def\CWaG{{\fidelx \char191}}
+%
+%  Start Pe-PWa  (U+1330 -> U+1337)
+%
+\def\PeG{{\fidelx \char200}}
+\def\PuG{{\fidelx \char201}}
+\def\PiG{{\fidelx \char202}}
+\def\PaG{{\fidelx \char203}}
+\def\PEG{{\fidelx \char204}}
+\def\PG{{\fidelx \char205}}
+\def\PoG{{\fidelx \char206}}
+\def\PWaG{{\fidelx \char207}}
+%
+%  Start Se-SWa  (U+1338 -> U+133F)
+%
+\def\SeG{{\fidelx \char208}}
+\def\SuG{{\fidelx \char209}}
+\def\SiG{{\fidelx \char210}}
+\def\SaG{{\fidelx \char211}}
+\def\SEG{{\fidelx \char212}}
+\def\SG{{\fidelx \char213}}
+\def\SoG{{\fidelx \char214}}
+\def\SWaG{{\fidelx \char215}}
+%
+%  Start `Se-`SWa  (U+1340 -> U+1346)
+%
+\def\SSeG{{\fidelx \char216}}
+\def\SSuG{{\fidelx \char217}}
+\def\SSiG{{\fidelx \char218}}
+\def\SSaG{{\fidelx \char219}}
+\def\SSEG{{\fidelx \char220}}
+\def\SSG{{\fidelx \char221}}
+\def\SSoG{{\fidelx \char222}}
+%
+%  Start fe-fWa  (U+1348 -> U+134F)
+%
+\def\feG{{\fidel \char224}}
+\def\fuG{{\fidel \char225}}
+%
+% Don't change \fiG to \fi!!  \fi is defined for End If under TeX.
+%
+\def\fiG{{\fidel \char226}}
+\def\faG{{\fidel \char227}}
+\def\fEG{{\fidel \char228}}
+\def\fG{{\fidel \char102}}
+\def\foG{{\fidel \char229}}
+\def\fWaG{{\fidel \char027}}
+%
+%  Start pe-pWa  (U+1350 -> U+1357)
+%
+\def\peG{{\fidel \char230}}
+\def\puG{{\fidel \char231}}
+\def\piG{{\fidel \char232}}
+\def\paG{{\fidel \char233}}
+\def\pEG{{\fidel \char234}}
+\def\pG{{\fidel \char112}}
+\def\poG{{\fidel \char235}}
+\def\pWaG{{\fidel \char238}}
+%
+%  Start mYa, rYa, fYa  (U+1358 -> U+135A)
+%
+\def\mYaG{{\fidelx \char040}}
+\def\rYaG{{\fidelx \char041}}
+\def\fYaG{{\fidelx \char042}}
+%
+%  Start : -> :|:  (U+1361 -> U+1368)
+%
+%\def\spaceG{{\fidel \char058}}
+\def\spaceG{
+  \ifhmode
+    \ifdim\lastskip=\fontdimen2\font\relax
+      \unskip
+    \fi
+  \fi
+  \nobreak
+  \hskip 0em plus 0,16667em
+  {\fidel \char58}
+  \hskip 0em plus 0,16667em
+  \ignorespaces
+}
+\def\periodG{{\fidel \char126}}
+\def\commaG{{\fidel \char044}}
+\def\semicolonG{{\fidel \char059}}
+\def\precolonG{{\fidel \char058\char045}}
+\def\colonG{{\fidel \char042}}
+\def\oldqmarkG{{\fidel \char124}}
+\def\pbreakG{{\fidel \char058\char124\char058}}
+%
+%  Start 1-10,000 (U+1369 -> U+137C)
+%
+\def\andG{{\fidelx \char049}}
+\def\huletG{{\fidelx \char050}}
+\def\sostG{{\fidelx \char051}}
+\def\aratG{{\fidelx \char052}}
+\def\amstG{{\fidelx \char053}}
+\def\sadstG{{\fidelx \char054}}
+\def\sabatG{{\fidelx \char055}}
+\def\smntG{{\fidelx \char056}}
+\def\zeteNG{{\fidelx \char057}}
+\def\asrG{{\fidelx \char058}}
+\def\heyaG{{\fidelx \char059}}
+\def\selasaG{{\fidelx \char060}}
+\def\arbaG{{\fidelx \char061}}
+\def\hemsaG{{\fidelx \char062}}
+\def\slsaG{{\fidelx \char063}}
+\def\sebaG{{\fidelx \char064}}
+\def\semanyaG{{\fidelx \char065}}
+\def\zeTanaG{{\fidelx \char066}}
+\def\metoG{{\fidelx \char067}}
+\def\asrxiG{{\fidelx \char068}}
+
+
+%
+%  Proposed Extensions used by Mule but not an official part of Uniocde
+%  or ISO-10646
+%
+
+%
+%  Start `qe-`qo (U+1380 -> U+1386)
+%
+\def\qqeG{{\fidelx \char224}}
+\def\qquG{{\fidelx \char225}}
+\def\qqiG{{\fidelx \char226}}
+\def\qqaG{{\fidelx \char227}}
+\def\qqEG{{\fidelx \char228}}
+\def\qqG{{\fidelx \char229}}
+\def\qqoG{{\fidelx \char230}}
+%
+%  Start mWe-fWe (U+1388 -> U+138C)
+%
+\def\mWeG{{\fidel \char000}}
+\def\bWeG{{\fidel \char010}}
+\def\GWeG{{\fidelx \char024}}
+\def\fWeG{{\fidel \char025}}
+\def\pWeG{{\fidel \char236}}
+%
+%  Start `ke-`ko (U+1390 -> U+1396)
+%
+\def\kkeG{{\fidelx \char232}}
+\def\kkuG{{\fidelx \char233}}
+\def\kkiG{{\fidelx \char234}}
+\def\kkaG{{\fidelx \char235}}
+\def\kkEG{{\fidelx \char236}}
+\def\kkG{{\fidelx \char237}}
+\def\kkoG{{\fidelx \char238}}
+%
+%  Start mWi-fWi (U+1398 -> U+139C)
+%
+\def\mWiG{{\fidel \char001}}
+\def\bWiG{{\fidel \char011}}
+\def\GWiG{{\fidelx \char026}}
+\def\fWiG{{\fidel \char026}}
+\def\pWiG{{\fidel \char237}}
+%
+%  Start Xe-Xo  (U+13A0 -> U+13A6)
+%
+\def\XeG{{\fidelx \char240}}
+\def\XuG{{\fidelx \char241}}
+\def\XiG{{\fidelx \char242}}
+\def\XaG{{\fidelx \char243}}
+\def\XEG{{\fidelx \char244}}
+\def\XG{{\fidelx \char245}}
+\def\XoG{{\fidelx \char246}}
+%
+%  Start mWE-fWE (U+13A8 -> U+13AC)
+%
+\def\mWEG{{\fidel \char003}}
+\def\bWEG{{\fidel \char013}}
+\def\GWEG{{\fidelx \char028}}
+\def\fWEG{{\fidel \char028}}
+\def\pWEG{{\fidel \char239}}
+%
+%  Start `ge-`qo  (U+13B0 -> U+13B6)
+%
+\def\ggeG{{\fidelx \char248}}
+\def\gguG{{\fidelx \char249}}
+\def\ggiG{{\fidelx \char250}}
+\def\ggaG{{\fidelx \char251}}
+\def\ggEG{{\fidelx \char252}}
+\def\ggG{{\fidelx \char253}}
+\def\ggoG{{\fidelx \char254}}
+%
+%  Start mW-fW (U+13B8 -> U+13BC)
+%
+\def\mWuG{{\fidel \char004}}
+\def\bWuG{{\fidel \char014}}
+\def\GWuG{{\fidelx \char029}}
+\def\fWuG{{\fidel \char029}}
+\def\pWuG{{\fidel \char240}}
+\def\mWG{\mWuG}
+\def\bWG{\bWuG}
+\def\GWG{\GWuG}
+\def\fWG{\fWuG}
+\def\pWG{\pWuG}
+
+
+
+%
+%  Private Use Extensions
+%
+\def\ornamentG{\pbreakG}
+\def\flandG{\epsfysize=0.09in\epsffile[29 787 33 792]{"`gzcat fidels/afr.epsi.gz"}}
+\def\iflandG{\epsfysize=0.09in\epsffile[29 787 33 792]{"`gzcat fidels/Afr.epsi.gz"}}
+\def\africaG{\epsfysize=0.09in\epsffile[29 787 32 792]{"`gzcat fidels/et.epsi.gz"}}
+\def\iafricaG{\epsfysize=0.09in\epsffile[29 787 32 792]{"`gzcat fidels/Et.epsi.gz"}}
+\def\wWaG{{\waG}}
+\def\wWeG{{\weG}}
+\def\wWiG{{\wiG}}
+\def\wWEG{{\wEG}}
+\def\wWG{{\wG}}
+\newcommand{\geminateG}[1]{\diatopx[\"{\,}|#1]}% This isn't too ugly at size 10
+%\newcommand{\geminateG}[1]{{#1}}% make it a no-op for now
+%\newcommand{\geminateG}[1]{\diatopx[#1|{\fidel \char125}]}%
+%\newcommand{\geminateG}[1]{\"{#1}}
+%\newcommand{\geminateG}[1]{\H{#1}}
+%\newcommand{\geminateG}[1]{$\ddot{#1}$}
+\def\slaqG{{\fidel \char035}}
+\def\dotG{{\fidel \char046}}
+
+\def\frlquote{\vbox{\offinterlineskip
+  \hbox{${\scriptscriptstyle\langle\!\langle}$}\kern-0.1pt}\hskip
+  -.6pt plus.3pt minus.2pt~}
+\def\frrquote{~\hskip -.6pt plus.3pt minus.2pt\vbox{\offinterlineskip
+  \hbox{$\scriptscriptstyle\rangle\!\rangle$}\kern-0.1pt}}
+
+\def\lquoteG{\textbf{\frlquote}}
+\def\rquoteG{\textbf{\frrquote}}
+\def\qmarkG{{\fidel \char063}}
+
+%
+%  End of Ethiomap.tex
+%
+
