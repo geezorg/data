@@ -13,12 +13,21 @@ The word list collection from አዲስ ያማርኛ መዝገበ ቃላት (New
 * [Tessema Habte Mikael Getzew](https://github.com/geezorg/data/tree/master/amharic/KBT/) — Kasatie Birhan Tessema YeAmarinya Mezgebe Kalat
 The word list collection from ከሣቴ፡ብርሃን፡ተሰማ፡የዐማርኛ፡መዝገበ፡ቃላት (Amharic Dictionary) Artistic Printers, Addis Ababa, 1959.
 
-* [Italian-Oromo-Amharic-Tigrinya-French-Arabic](https://github.com/geezorg/data/tree/master/amharic/Italian-Amharic/) by Feruucio
+* [Italian-Oromo-Amharic-Tigrinya-French-Arabic](https://github.com/geezorg/data/tree/master/amharic/Italian-Amharic/) Caressa Ferruccio - "Manuale Linguistico Per L'Africa Orientale" 1936 
+Caressa Ferruccio's pocket reference for Italian soldiers "Manuale Linguistico Per L'Africa Orientale. Lingue Araba, Amarica, Galla, e Tigrina. Torino, S.I.P.E.S., 1936.
 
 * [NMSU Say](https://github.com/geezorg/data/tree/master/amharic/nmsu-say/)
 
 ### [Geminated](https://github.com/geezorg/data/tree/master/amharic/geminated/)
+* [Fiker Iske Makaber (ፍቅር እስከ መቃብር)](https://github.com/geezorg/data/blob/master/amharic/geminated/FikerIskeMakaber-20090131.txt)
+The geminated words of Fiker Iske Makaber (3,254 words).
+
+* C.H. Armbruster — "Initia Amharica"
+983 verbs in 9 conjugations collected from "Initia Amharica. An Introduction to Spoken Amharic. Part I: Grammar" by C.H. Arbruster, 1908. and "Initia Amharica. An Introduction to Spoken Amharic. Part II: English-Amharic Vocabulary with Phrases" by C.H. Arbruster, 1910.
+
 ### [Homonyms](https://github.com/geezorg/data/tree/master/amharic/homonyms/)
+* [Homonyms Collected by Girma Getahun](https://github.com/geezorg/data/blob/master/amharic/homonyms/GirmaGetahun-Homonyms-20071124.txt)
+
 ### [Indices](https://github.com/geezorg/data/tree/master/amharic/indices/)
 ### [Parallel](https://github.com/geezorg/data/tree/master/amharic/parallel/)
 ### [Parts of Speech](https://github.com/geezorg/data/tree/master/amharic/parts-of-speech/)
@@ -29,8 +38,8 @@ The word list collection from ከሣቴ፡ብርሃን፡ተሰማ፡የዐማ�
 
 * [Solomon Gebre Christos](https://github.com/geezorg/data/blob/master/amharic/toponymic/SGC-FullNames-20071123.txt) — "List of Ethiopian Authors"
 Personal and place names and their transliterations from "List of Ethiopian Authors የኢትዮጵያ ደራሲያን ስም ዝርዝር", Solomon Gebre Christos, Addis Ababa, Haile Selassie I University Library, 1971.
-** [Author Full Names](https://github.com/geezorg/data/blob/master/amharic/toponymic/SGC-FullNames-20071123.txt)
-** [List of Individuals Names](https://github.com/geezorg/data/blob/master/amharic/toponymic/SGC-SingleNames-20071123.txt)
+  * [Author Full Names](https://github.com/geezorg/data/blob/master/amharic/toponymic/SGC-FullNames-20071123.txt)
+  * [List of Individuals Names](https://github.com/geezorg/data/blob/master/amharic/toponymic/SGC-SingleNames-20071123.txt)
 
 * [Berhan Ayyalew](https://github.com/geezorg/data/blob/master/amharic/toponymic/BA-SingleNames-20071031.txt) — "Transliteration of Some Amharic Names..."  Collection of personal and place names and their transliterations from "The Transliteration of some Amharic Names of Person, Places and Things, Part One", Berhan Ayyalew, Institute of Ethiopian Studies, Addis Ababa University, Addis Ababa, January 1980.
 
@@ -41,6 +50,16 @@ The merged name lists from the works of Solomon Gebre Cristos, Berhan Ayyalew an
 Names of Ethiopian cities as drawn from the US National Geospatial-Intelligence Agency's Geographic Names Server and the 1990 Ethiopian census records.
 
 ### [Verbs](https://github.com/geezorg/data/tree/master/amharic/verbs/)
+* [C.H. Armbruster](https://github.com/geezorg/data/blob/master/amharic/verbs/ArmbrusterVerbs-20070120.txt) — "Initia Amharica"
+Verbs collected from "Initia Amharica. An Introduction to Spoken Amharic. Part I: Grammar" by C.H. Arbruster, 1908. and "Initia Amharica. An Introduction to Spoken Amharic. Part II: English-Amharic Vocabulary with Phrases" by C.H. Arbruster, 1910.
+  * [Original Orthography (As Published)](https://github.com/geezorg/data/blob/master/amharic/verbs/ArmbrusterVerbs-20070120.txt)
+  * [Geminated](https://github.com/geezorg/data/blob/master/amharic/verbs/ArmbrusterVerbs-Geminated-20081118.txt)
+
+* [Bender-Fulas](https://github.com/geezorg/data/blob/master/amharic/verbs/Bender-Fulas-20070806.txt) — "Amharic Verb Morphology"
+Verbs from "Amharic Verb Morphology: A Generative Approach" by Lionel Bender and Hailu Fulas, Michigan State University, 1978.
+
+* [Merged Verb Collection (Armbruster with Bender-Fulas)](https://github.com/geezorg/data/blob/master/amharic/verbs/Armbruster-Bender-Fulas-Merged-20070919.zip)
+The merged verb collections of Armbruster, Bender & Fulas.
 
 ## [Falasi](https://github.com/geezorg/data/tree/master/falasi/)
 
@@ -53,3 +72,7 @@ Names of Ethiopian cities as drawn from the US National Geospatial-Intelligence 
 ## [Sebatbeit](https://github.com/geezorg/data/tree/master/sebatbeit/)
 
 ## [Tigrinya](https://github.com/geezorg/data/tree/master/tigrinya/)
+### Dictionaries
+* [Concise English-Tigrinya Dictionary](https://github.com/geezorg/data/tree/master/tigrinya/dictionaries/ConciseEnglish-TigrinyaDictionary-TuquaboAressi)
+* [መዝገበ-ቃላት ትግርኛ-አምሐርኛ Ethiopian Dictionary Tigrigna-Amharic](https://github.com/geezorg/data/tree/master/tigrinya/dictionaries/MezgebeQalatTigrinyaAmharic-YohannesGebre-Egziabher), አባ ዮሐንስ ገብረ-እግዚአብሔር, ቤት ማኅተም አርቲ ግራፊክ ኤርትሪያ, አሥመራ ፲፱፻፵፰-፵፱ ዓ.ም
+
