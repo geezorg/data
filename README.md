@@ -22,8 +22,7 @@ Caressa Ferruccio's pocket reference for Italian soldiers "Manuale Linguistico P
 * [Fiker Iske Makaber (ፍቅር እስከ መቃብር)](https://github.com/geezorg/data/blob/master/amharic/geminated/FikerIskeMakaber-20090131.txt)
 The geminated words of Fiker Iske Makaber (3,254 words).
 
-* C.H. Armbruster — "Initia Amharica"
-983 verbs in 9 conjugations collected from "Initia Amharica. An Introduction to Spoken Amharic. Part I: Grammar" by C.H. Arbruster, 1908. and "Initia Amharica. An Introduction to Spoken Amharic. Part II: English-Amharic Vocabulary with Phrases" by C.H. Arbruster, 1910.
+* [Amharic Gemination](https://github.com/geezorg/data/blob/master/amharic/geminated/AmharicGemination-20150711.xlsx) Collections of Amharic words with gemination applied.
 
 ### [Homonyms](https://github.com/geezorg/data/tree/master/amharic/homonyms/)
 * [Homonyms Collected by Girma Getahun](https://github.com/geezorg/data/blob/master/amharic/homonyms/GirmaGetahun-Homonyms-20071124.txt)
@@ -62,6 +61,8 @@ Verbs from "Amharic Verb Morphology: A Generative Approach" by Lionel Bender and
 The merged verb collections of Armbruster, Bender & Fulas.
 
 ## [Falasi](https://github.com/geezorg/data/tree/master/falasi/)
+## Dictionaries
+* [An Ethiopic - Falasi Glossary](https://github.com/geezorg/data/blob/master/falasi/dictionaries/hartwig-hirschfeld-falasi-english/An%20Ethiopic%20-%20Falasi%20Glossary.docx) "An Ethiopic - Falasi Glossary", Hartwig Hirschfeld, Journal of the Royal Asiatic Society, April 1921
 
 ## [Ge'ez](https://github.com/geezorg/data/tree/master/geez/)
 
@@ -72,7 +73,7 @@ The merged verb collections of Armbruster, Bender & Fulas.
 ## [Sebatbeit](https://github.com/geezorg/data/tree/master/sebatbeit/)
 
 ## [Tigrinya](https://github.com/geezorg/data/tree/master/tigrinya/)
-### Dictionaries
+### [Dictionaries](https://github.com/geezorg/data/tree/master/tigrinya/dictionaries/)
 * [Concise English-Tigrinya Dictionary](https://github.com/geezorg/data/tree/master/tigrinya/dictionaries/ConciseEnglish-TigrinyaDictionary-TuquaboAressi)
 * [መዝገበ-ቃላት ትግርኛ-አምሐርኛ Ethiopian Dictionary Tigrigna-Amharic](https://github.com/geezorg/data/tree/master/tigrinya/dictionaries/MezgebeQalatTigrinyaAmharic-YohannesGebre-Egziabher), አባ ዮሐንስ ገብረ-እግዚአብሔር, ቤት ማኅተም አርቲ ግራፊክ ኤርትሪያ, አሥመራ ፲፱፻፵፰-፵፱ ዓ.ም
 
