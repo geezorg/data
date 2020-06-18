@@ -4,19 +4,19 @@
 ## [Amharic](https://github.com/geezorg/data/tree/master/amharic/)
 ### [Dictionaries](https://github.com/geezorg/data/tree/master/amharic/dictionaries/)
 
-* [Amsalu Aklilu](https://github.com/geezorg/data/tree/master/amharic/AA/) — Amharic English Dictionary
+* [Amsalu Aklilu](https://github.com/geezorg/data/tree/master/amharic/dictionaries/AA/) — Amharic English Dictionary
 The word list collection from አማርኛ - እንግሊዝኛ መዝገበ ቃላት Amharic-English Dictionary Kuraz Publishers, Addis Ababa, 1987.
 
-* [Desta Tekle Wold](https://github.com/geezorg/data/tree/master/amharic/DTW/) — Addis Yamarinya Mezgebe Kalat17:30
+* [Desta Tekle Wold](https://github.com/geezorg/data/tree/master/amharic/dictionaries/DTW/) — Addis Yamarinya Mezgebe Kalat17:30
 The word list collection from አዲስ ያማርኛ መዝገበ ቃላት (New Amharic Dictionary) Artistic Printers, Addis Ababa, 1970.
 
-* [Tessema Habte Mikael Getzew](https://github.com/geezorg/data/tree/master/amharic/KBT/) — Kasatie Birhan Tessema YeAmarinya Mezgebe Kalat
+* [Tessema Habte Mikael Getzew](https://github.com/geezorg/data/tree/master/amharic/dictionaries/KBT/) — Kasatie Birhan Tessema YeAmarinya Mezgebe Kalat
 The word list collection from ከሣቴ፡ብርሃን፡ተሰማ፡የዐማርኛ፡መዝገበ፡ቃላት (Amharic Dictionary) Artistic Printers, Addis Ababa, 1959.
 
-* [Italian-Oromo-Amharic-Tigrinya-French-Arabic](https://github.com/geezorg/data/tree/master/amharic/Italian-Amharic/) Caressa Ferruccio - "Manuale Linguistico Per L'Africa Orientale" 1936 
+* [Italian-Oromo-Amharic-Tigrinya-French-Arabic](https://github.com/geezorg/data/tree/master/amharic/dictionaries/Italian-Amharic/) Caressa Ferruccio - "Manuale Linguistico Per L'Africa Orientale" 1936 
 Caressa Ferruccio's pocket reference for Italian soldiers "Manuale Linguistico Per L'Africa Orientale. Lingue Araba, Amarica, Galla, e Tigrina. Torino, S.I.P.E.S., 1936.
 
-* [NMSU Say](https://github.com/geezorg/data/tree/master/amharic/nmsu-say/)
+* [NMSU Say](https://github.com/geezorg/data/tree/master/amharic/dictionaries/nmsu-say/)
 
 ### [Geminated](https://github.com/geezorg/data/tree/master/amharic/geminated/)
 * [Fiker Iske Makaber (ፍቅር እስከ መቃብር)](https://github.com/geezorg/data/blob/master/amharic/geminated/FikerIskeMakaber-20090131.txt)
